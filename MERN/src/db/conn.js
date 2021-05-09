@@ -1,13 +1,11 @@
-// Connection to MONGODB Atlas
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://tommyc:tommyc@cluster0.ska6c.mongodb.net/Cluster0?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+// Connection to MongoDb Atlas
+const mongoose = require('mongoose');
 
- // The database to use
- const dbName = "test";
+const uri = "mongodb+srv://dbUser:dbUser@test.ska6c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
+const connectDb = async() =>{
+  await mongoose.connect(uri, {useUnifiedTopology: true, useNewUrlParser: true});
+  console.log("Connected to database");
+}
 
-  client.close();
-});
+module.exports = connectDb;
