@@ -16,11 +16,18 @@ After registering, you may login by returning to the home screen by and entering
 Unfinished Tasks...
 
 1. Implementing Twitter API
+
   1.2. Chatting
-  1.3. Creating, Reading, Updating, and Deleting Tweets
-  1.4. Unit Testing for Endpoints
-  1.5. Like/Unlke Tweets
-  1.6. Retweeting
-  1.7. Threading
+  
+  3.3. Creating, Reading, Updating, and Deleting Tweets
+  
+  5.4. Unit Testing for Endpoints
+  
+  7.5. Like/Unlke Tweets
+  
+  9.6. Retweeting
+
+  11.7. Threading
+  
 3. Unit Testing
 
