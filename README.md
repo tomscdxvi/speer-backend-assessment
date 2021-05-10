@@ -17,17 +17,17 @@ Unfinished Tasks...
 
 1. Implementing Twitter API
 
-  1.2. Chatting
+    1.2. Chatting
   
-  1.3. Creating, Reading, Updating, and Deleting Tweets
+    1.3. Creating, Reading, Updating, and Deleting Tweets
   
-  1.4. Unit Testing for Endpoints
+    1.4. Unit Testing for Endpoints
   
-  1.5. Like/Unlke Tweets
+    1.5. Like/Unlke Tweets
   
-  1.6. Retweeting
+    1.6. Retweeting
 
-  1.7. Threading
+    1.7. Threading
   
 2. Unit Testing
 
