@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Variables to input into MongoDB Collection 
 const user = new mongoose.Schema({
     firstname : 
     {

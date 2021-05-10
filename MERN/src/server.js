@@ -12,6 +12,7 @@ const hbs = require("hbs");
 const templates_path = path.join(__dirname, "../templates/views" );
 const partials_path = path.join(__dirname, "../templates/partials" );
 
+
 // Accessing hbs files through express.js
 app.use(express.json({extended:false}));
 app.use(express.urlencoded({extended:false}));
@@ -26,7 +27,6 @@ app.get("/", (req, res) =>{
 });
 
 // Create a new user on register
-
 app.get("/register", (req, res) =>{
     res.render("register");
 })
@@ -66,7 +66,6 @@ app.post('/register', async (req, res) =>{
 })
 
 // Login user
-
 app.get("/login", (req, res) =>{
     res.render("login");
 })
