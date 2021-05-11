@@ -3,7 +3,7 @@ Speer Backend Assessment
 
 This is my Speer Backend Assessment Documentation...
 
-Created with Javascript, Node.js, Express.js, Mongoose.js, Nodemon
+Created with Javascript, Node.js, Express.js, Mongoose.js, Nodemon, Handlebars
 
 Database used: MongoDB Atlas
 
