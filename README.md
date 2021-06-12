@@ -7,7 +7,7 @@ Created with Javascript, Node.js, Express.js, Mongoose.js, Nodemon, Handlebars
 
 Database used: MongoDB Atlas
 
-To use this application, you must enter "cd MERN" in the terminal to access the correct directory then type "npm run server" in the terminal of the ide. (My IDE choice is VS Code)
+Type "npm run server" in the terminal of the ide to run the server/app. (My IDE choice is VS Code)
  
 Then in your browser, enter localhost:3000
 
